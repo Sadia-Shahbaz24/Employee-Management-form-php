@@ -1,0 +1,105 @@
+/* Form Styles */
+#employeeForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.button-group {
+    text-align: center;
+}
+
+#btn {
+    text-align: center;
+}
+
+#btn input[type="submit"], 
+#btn input[type="reset"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#btn input[type="submit"]:hover, 
+#btn input[type="reset"]:hover {
+    background-color: #9cd79f; /* Darker Green */
+}
+
+#btn input[name="delete"] {
+    background-color: #f44336; /* Red */
+}
+
+#btn input[name="delete"]:hover {
+    background-color: #d32f2f; /* Darker Red */
+}
+#btn input[name="save"] {
+    background-color: #696767;
+}
+
+#btn input[name="save"]:hover {
+    background-color: #d1afaf;
+}
+#btn input[name="update"] {
+    background-color: #85eeab;
+}
+
+#btn input[name="update"]:hover {
+    background-color: #abf67f;
+}
+#btn input[name="clear"] {
+    background-color: #310bc9;
+}
+
+#btn input[name="clear"]:hover {
+    background-color: #686bc0;
+}
+
+
+
+
+/* Button Container */
+.button-group {
+    text-align: center;
+    white-space: nowrap; /* Prevents buttons from wrapping to the next line */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+
+
